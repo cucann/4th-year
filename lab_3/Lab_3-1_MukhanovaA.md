@@ -79,40 +79,6 @@
 ## 4. Диаграмма архитектуры
 <img width="712" height="1051" alt="lab_3-1 (1)-lab3-1_architecture drawio" src="https://github.com/user-attachments/assets/b5927810-e01f-4d62-aca9-4f7ef22dabf8" />
 
-
----
-Архитектура хранилища больших данных для образовательной онлайн-платформы
-
-Источники данных (Source layer)
-├─ Логи взаимодействия (веб/мобильные приложения)
-├─ Результаты тестов (СУБД платформы)
-├─ Видеолекции (файлы)
-└─ Метаданные курсов и пользователей
-
-Хранение данных (Data Storage)
-├─ VK Cloud S3 (Data Lake, Delta Lake/Iceberg)
-├─ ClickHouse (DWH Аналитика)
-└─ PostgreSQL (OLTP, ML features via pgvector)
-
-Обработка данных (Data Processing)
-├─ Apache Flink (Потоковая обработка)
-└─ Apache Spark (Пакетная обработка)
-
-Аналитика
-├─ Apache Superset (BI дашборды)
-└─ Grafana (Real-time мониторинг)
-
-Обслуживание
-└─ Kubernetes VK Cloud (Управление ML)
-
-Оркестрация и Мониторинг
-├─ Apache Airflow
-└─ Grafana
-
-Безопасность и Управление
-└─ Apache Ranger
-
-
 ---
 
 ## 5. Описание потоков данных
