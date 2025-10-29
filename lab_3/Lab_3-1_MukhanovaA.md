@@ -77,7 +77,8 @@
 | **Apache Ranger** | Централизованное управление безопасностью и доступом к данным платформы |
 
 ## 4. Диаграмма архитектуры
-![Диаграмма архитектуры](lab_3-1 (1)-lab3-1_architecture.drawio.png)
+<img width="712" height="1051" alt="lab_3-1 (1)-lab3-1_architecture drawio" src="https://github.com/user-attachments/assets/b5927810-e01f-4d62-aca9-4f7ef22dabf8" />
+
 
 ---
 Архитектура хранилища больших данных для образовательной онлайн-платформы
