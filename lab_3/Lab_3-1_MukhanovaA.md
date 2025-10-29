@@ -167,3 +167,19 @@
 - **3,200-4,800 руб./мес** за курс
 - При 100 студентах: **3,000,000 руб./год** выручки
 - Рентабельность: **~30-40%**
+
+
+
+
+<table>
+<tr>
+<td style="background-color: #ffcccc; padding: 10px;">
+<strong>Высокая стоимость</strong><br>
+Требует серьезных инвестиций
+</td>
+<td style="background-color: #ccffcc; padding: 10px;">
+<strong>Средняя стоимость</strong><br>
+Оптимальное решение
+</td>
+</tr>
+</table>
